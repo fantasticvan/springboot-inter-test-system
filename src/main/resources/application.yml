@@ -1,11 +1,11 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sb_intergration
     username: root
     password: 123456
-
+    url: jdbc:mysql://localhost:3306/sb_intergration
 
 mybatis:
-  type-aliases-package: com.fantsey.intersys.bean
-  mapper-locations: classpath:com/fantsey/intersys/mapping/*.xml
+  type-aliases-package: com.fantsey.sbintersys.bean
+  mapper-locations: classpath:com/fantsey/sbintersys/mapping/*.xml
+
