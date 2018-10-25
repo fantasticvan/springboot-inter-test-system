@@ -1,6 +1,6 @@
-package com.fantsey.intersys.service;
+package com.fantsey.sbintersys.service;
 
-import com.fantsey.intersys.bean.User;
+import com.fantsey.sbintersys.bean.User;
 
 public interface UserService {
     User findByUsername(String username);

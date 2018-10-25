@@ -1,8 +1,8 @@
-package com.fantsey.intersys.service.impl;
+package com.fantsey.sbintersys.service.impl;
 
-import com.fantsey.intersys.bean.User;
-import com.fantsey.intersys.dao.UserMapper;
-import com.fantsey.intersys.service.UserService;
+import com.fantsey.sbintersys.bean.User;
+import com.fantsey.sbintersys.dao.UserMapper;
+import com.fantsey.sbintersys.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

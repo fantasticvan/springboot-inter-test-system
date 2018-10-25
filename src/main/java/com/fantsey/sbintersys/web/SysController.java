@@ -1,7 +1,7 @@
-package com.fantsey.intersys.web;
+package com.fantsey.sbintersys.web;
 
-import com.fantsey.intersys.bean.User;
-import com.fantsey.intersys.stub.UserStub;
+import com.fantsey.sbintersys.bean.User;
+import com.fantsey.sbintersys.stub.UserStub;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

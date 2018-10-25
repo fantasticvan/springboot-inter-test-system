@@ -1,4 +1,4 @@
-package com.fantsey.intersys.bean;
+package com.fantsey.sbintersys.bean;
 
 public class User {
     private String id;

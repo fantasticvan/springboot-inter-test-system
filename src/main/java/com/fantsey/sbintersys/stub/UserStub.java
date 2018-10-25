@@ -1,7 +1,7 @@
-package com.fantsey.intersys.stub;
+package com.fantsey.sbintersys.stub;
 
-import com.fantsey.intersys.bean.User;
-import com.fantsey.intersys.service.UserService;
+import com.fantsey.sbintersys.bean.User;
+import com.fantsey.sbintersys.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

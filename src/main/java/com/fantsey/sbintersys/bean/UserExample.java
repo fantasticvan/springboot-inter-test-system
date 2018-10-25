@@ -1,4 +1,4 @@
-package com.fantsey.intersys.bean;
+package com.fantsey.sbintersys.bean;
 
 import java.util.ArrayList;
 import java.util.List;
