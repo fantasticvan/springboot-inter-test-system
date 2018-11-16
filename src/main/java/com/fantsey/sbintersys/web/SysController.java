@@ -31,8 +31,9 @@ public class SysController {
         return "sys/login";
     }
 
-    @GetMapping("login")
+    @GetMapping("toIndex")
     public String login(String username, String password){
-        return "sys/index";
+        System.out.println("=====to index=======");
+        return "index";
     }
 }
