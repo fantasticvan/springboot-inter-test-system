@@ -1,7 +1,7 @@
-package com.fantsey.intersys.dao;
+package com.fantsey.sbintersys.dao;
 
-import com.fantsey.intersys.bean.User;
-import com.fantsey.intersys.bean.UserExample;
+import com.fantsey.sbintersys.bean.User;
+import com.fantsey.sbintersys.bean.UserExample;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -31,4 +31,6 @@ public interface UserMapper {
     int updateByPrimaryKey(User record);
 
     User findByUsername(String username);
+
+    List<User> findAllUsers();
 }

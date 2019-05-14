@@ -22,6 +22,7 @@
         <javaClientGenerator targetPackage="com.fantsey.intersys.dao"
                              targetProject="src/main/java" type="XMLMAPPER" />
 
+        F:\workplace(inteliJ)\sb-inter-sys\src\main\java\com\fantsey\sbintersys\dao\UserMapper.java
         <!-- 数据库表 -->
         <table  tableName="tuser" domainObjectName="User">
             <!-- 设置别名 -->
